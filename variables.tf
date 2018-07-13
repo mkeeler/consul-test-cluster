@@ -23,7 +23,7 @@ variable "docker_net_create" {
 }
 
 variable "docker_net_name" {
-  default = "bridge"
+  default = "consul-net"
 }
 
 variable "docker_net_check_dup" {
